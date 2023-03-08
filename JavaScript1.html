@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>자바스크립트</title>
+    <style>
+      .big {
+        width: 500px;
+        height: 100px;
+        background-color: blue;
+        color: aliceblue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">Hi</div>
+    <hr />
+    <button class="test">Click</button>
+  </body>
+  <script>
+    const testButton = document.querySelector(".test");
+    const container = document.querySelector(".container");
+
+    testButton.addEventListener("click", function () {
+      alert("Hello");
+      container.innerHTML = "Hello !";
+      container.classList.add("big");
+    });
+  </script>
+</html>
