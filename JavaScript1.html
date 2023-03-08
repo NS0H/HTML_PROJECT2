@@ -6,15 +6,16 @@
     <title>자바스크립트</title>
     <style>
       .big {
+        font-size: 100px;
         width: 500px;
-        height: 100px;
-        background-color: blue;
-        color: aliceblue;
+        height: 500px;
+        background-color: palevioletred;
+        color: white;
       }
     </style>
   </head>
   <body>
-    <div class="container">Hi</div>
+    <div class="container"></div>
     <hr />
     <button class="test">Click</button>
   </body>
@@ -23,8 +24,7 @@
     const container = document.querySelector(".container");
 
     testButton.addEventListener("click", function () {
-      alert("Hello");
-      container.innerHTML = "Hello !";
+      container.innerHTML = "메롱ㅠ";
       container.classList.add("big");
     });
   </script>
