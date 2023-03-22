@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Black+Han+Sans:400');
 
+* {
+	font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  }
+
 .bootstrap-header {
 	border-bottom: 1px solid #e5e5e5;
 }
